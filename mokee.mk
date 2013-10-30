@@ -1,13 +1,5 @@
-<<<<<<< HEAD:mokee.mk
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/mk/config/gsm.mk)
-
 # Inherit some common MK stuff.
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
-=======
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
->>>>>>> cm-10.2:cm.mk
 
 # Enhanced NFC
 $(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
